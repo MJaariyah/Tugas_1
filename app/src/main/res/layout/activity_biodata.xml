@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Panggilan Kamu"
+        android:textSize="25dp"
+        android:paddingBottom="30dp"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <EditText
+        android:id="@+id/textView_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contoh : Budi"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:textColor="@android:color/black"
+        android:text="Umur Kamu"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <EditText
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contoh : 12"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="350dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="264dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/custom_button"
+            android:text="Selanjutnya"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="592dp" />
+    </RelativeLayout>
+</LinearLayout>

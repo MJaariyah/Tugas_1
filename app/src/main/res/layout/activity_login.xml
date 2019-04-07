@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#d2d2d2"
+        android:paddingTop="50dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="200dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kode Keluarga"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@android:color/black"
+            android:paddingBottom="10dp"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="36dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Ketikan kode keluarga yang Ayah Bunda miliki disini"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:paddingBottom="20dp"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="72dp" />
+
+        <EditText
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A1B2C3"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="116dp"
+            android:background="@drawable/custom_edit"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textAlignment="center"
+            android:textSize="13dp"
+            android:textColor="@android:color/black"
+            android:text="Dengan menekan tombol masuk berarti Anda menyetujui Ketentunan Pengguna dan Kebijakan Data kami"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="349dp"
+            android:layout_height="51dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/custom_button"
+            android:text="Masuk"
+            android:textStyle="bold"
+            android:onClick="Pindah" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Belum punya kode keluarga"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="598dp"
+            android:paddingBottom="20dp" />
+
+        <Button
+            android:id="@+id/custom_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beli Kode Keluarga Disini"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/custom_button1" />
+    </LinearLayout>
+</LinearLayout>
